@@ -1,0 +1,259 @@
+/* specification */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #939393;
+    font-size: 14px;
+    background: #f9f9f9;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    color: #383838;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 64px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+.green {
+    color: #00a99d;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+
+.header {
+    background: url(../img/dino-reichmuth-85708-unsplash.jpg) no-repeat center top;
+}
+
+.title {
+    padding-top: 220px;
+    padding-bottom: 320px;
+}
+
+.title__first {
+    text-transform: uppercase;
+    color: #383838;
+    font-size: 18px;
+    text-align: center;
+}
+
+.title__heading {}
+
+.title__startup {
+    color: #e4e4e4;
+    border-radius: 5px;
+    font-size: 18px;
+    background: #333333;
+    text-transform: uppercase;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.title__startup span {
+    text-transform: none;
+    font-weight: 800;
+}
+
+.line-left {
+    border-top: 4px double #383838;
+    width: 120px;
+    margin-top: 17px;
+}
+
+.img-left {
+    background: url(../img/left-shapes1.png)no-repeat center center;
+    width: 35px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.img-right {
+    background: url(../img/right-shapes.png)no-repeat center center;
+    width: 35px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.line-right {
+    border-top: 4px double #383838;
+    width: 120px;
+    margin-top: 17px;
+}
+
+.wrap {
+    justify-content: center;
+}
+
+.title a:hover {
+    text-decoration: none;
+    color: #00f1e0;
+}
+
+.title a {
+    transition: all 0.5s ease;
+    color: #00a99d;
+}
+
+.fa-chevron-circle-down {
+    font-size: 60px;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.logo {
+    padding: 25px 0;
+}
+
+.nav-header {
+    margin-bottom: px;
+    border-bottom: 2px solid #dedede;
+}
+
+.menu {
+    justify-content: flex-end;
+}
+
+.menu__item {
+    font-weight: 800;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 40px 0;
+}
+
+.menu__item a {
+    color: #606060;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    padding: 20px;
+}
+
+.menu__item a:hover {
+    color: #e4e4e4;
+    background: #00a99d;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.fa-search {
+    color: #00a99d;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.what-ofer {
+    padding-top: 75px;
+    margin-bottom: 350px;
+}
+
+.ofer-text {
+    justify-content: center;
+}
+
+.ofer__line-left {
+    border-top: 5px double #c3c3c3;
+    width: 330px;
+    margin-top: 17px;
+}
+
+.ofer__img-left {
+    background: url(../img/left-shapes1.png)no-repeat center center;
+    width: 35px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.ofer__title {
+    color: #383838;
+}
+
+.ofer__img-right {
+    background: url(../img/right-shapes.png)no-repeat center center;
+    width: 35px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.ofer__line-right {
+    border-top: 5px double #c3c3c3;
+    width: 330px;
+    margin-top: 17px;
+}
+
+.ofer-text__2 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.services {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.services i {
+    font-size: 36px;
+    color: #e4e4e4;
+    background: #383838;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.center i {
+    font-size: 30px;
+    color: #e4e4e4;
+    background: #01a89e;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+}
+
+.services__title {
+    margin-top: 32px;
+    margin-bottom: 22px;
+}
+
+.btn {
+    background: #f9f9f9;
+    font-size: 10px;
+    font-weight: 800;
+    color: #8a8a8a;
+    text-transform: uppercase;
+    border: 2px solid #dedede;
+    border-radius: 5px;
+    padding: 8px 0;
+    display: block;
+    cursor: pointer;
+    width: 80px;
+    margin: 0 auto;
+    margin-top: 22px;
+    text-align: center;
+}

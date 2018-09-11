@@ -865,6 +865,7 @@ p {
 
 .quotes__arrows span {
     font-size: 20px;
+    padding: 5px;
     color: #e4e4e4;
 }
 
@@ -889,3 +890,64 @@ p {
 .quotes__key_down:hover {
     background: #e4e4e4;
 }
+
+/* section clients */
+
+.clients {
+    padding-top: 50px;
+    padding-bottom: 400px;
+    background: #383838;
+    align-items: center;
+}
+
+.clients__logo {
+    width: 270px;
+    height: 160px;
+    background: #363636;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients__logo:hover {
+    background: #333333;
+}
+
+.logo__img {
+    padding: 40px 50px;
+    opacity: .2;
+}
+
+.logo__img:hover {
+    opacity: 1;
+    
+}
+
+.clients span {
+    font-size: 20px;
+    padding: 5px;
+    color: #00a99d;
+}
+
+.clients span:hover {
+    font-size: 20px;
+    color: #e4e4e4;
+}
+
+.clients__key_down {
+    display: block;
+    background: #e4e4e4;
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: -250px;
+   
+}
+
+.clients__key_down:hover {
+    background: #00a99d;
+}
+

@@ -45,6 +45,10 @@ p {
     padding-left: 0;
 }
 
+button:focus {
+    outline: none !important
+}
+
 /* header */
 
 .header {
@@ -727,7 +731,7 @@ p {
 }
 
 .card__body {
-    margin-top: px;
+    margin-top: -20px;
 }
 
 .team__img {
@@ -965,7 +969,7 @@ p {
 
 .price-tables {
     padding-top: 75px;
-    padding-bottom: 400px;
+    padding-bottom: 80px;
 }
 
 .price__cards {
@@ -1008,7 +1012,7 @@ p {
     text-transform: uppercase;
     border: none;
     border-radius: 3px;
-    padding: 10px 0;
+    padding: 7px 0;
     display: block;
     cursor: pointer;
     width: 190px;
@@ -1173,22 +1177,43 @@ p {
 
 .logo_2 {
     padding-bottom: 60px;
-
-   margin: 0 auto;
+    margin: 0 auto;
 }
 
 .icons {
     justify-content: center;
+    padding-bottom: 80px;
 }
 
 .icons__social {
     font-size: 16px;
     color: #e4e4e4;
     border: 1px solid #606060;
-    border-radius: 4px;
-    
-    padding: 10px;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
     margin: 0 5px;
-    
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
+.icons__social:hover {
+    background: #00a99d;
+    border-color: #00a99d;
+}
+
+.map {
+    background: url(../img/map.png) no-repeat center center;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_pin {
+    font-size: 50px;
+    color: #383838;
+    padding-bottom: 25px;
+}

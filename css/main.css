@@ -13,6 +13,11 @@ ul, li {
     margin: 0;
 }
 
+.no-gutters {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 h1, h2, h3, h4, h5 {
     font-weight: 800;
     text-transform: uppercase;
@@ -89,6 +94,7 @@ button:focus {
     padding-right: 0;
     padding-left: 0;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .header__title {
@@ -125,7 +131,7 @@ button:focus {
     color: #00a99d;
 }
 
-.fa-chevron-circle-down {
+.arrow_carrot-down_alt {
     font-size: 60px;
     justify-content: center;
     margin-top: 45px;
@@ -144,13 +150,14 @@ button:focus {
 
 .menu {
     justify-content: space-between;
+    /* margin-left: 300px; */
 }
 
 .menu__item {
     font-weight: 800;
     font-size: 13px;
     text-transform: uppercase;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .menu__item a {
@@ -167,11 +174,31 @@ button:focus {
     width: 100px;
 }
 
+
+
 .fa-search {
     color: #00a99d;
-    padding-left: 20px;
-    font-size: 20px;
-    padding-top: 40px;
+    /* padding-left: 20px; */
+    font-size: 18px;
+    /* padding-top: 40px; */
+    transform: rotate(90deg);
+}
+
+.icon_menu {
+    font-size: 45px;
+    color: #00a99d;
+    padding: 10px;
+    
+}
+
+.toggler__border {
+    border: 2px solid #606060;
+    background-color: #606060;
+    border-radius: 3px;
+}
+
+.navbar-collapse li {
+    margin: 0 auto;
 }
 
 /* section what-ofer */
@@ -523,25 +550,31 @@ button:focus {
     padding-bottom: 105px;
 }
 
-.works-foto {
-    padding-top: 50px;
+.works-text {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 50px;
 }
 
 .allWorks {
     justify-content: center;
     padding-left: 5px;
     padding-right: 5px;
+    /* height: 250px; */
+    width: ;
 }
 
-.works img {
-    width: 100%;
-    height: 100%;
-    border-radius: 3px;
-    opacity: 0;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .works {
     background: #8a8a8a;
+    background: url(../img/shazmyn-ali-595978-unsplash.jpg) no-repeat center center;
+    height: auto;
+    width: 310px;
     margin-bottom: 2px;
     margin-left: 1px;
     margin-right: 1px;
@@ -551,13 +584,15 @@ button:focus {
     padding-top: 45px;
     font-size: 12px;
     color: #e4e4e4;
+    height: 250px;
     text-align: center;
-     background: #1ca399;
+    /* background: #1ca399; */
+    opacity: 0;
 }
 
 .works__hovered:hover {
-   
-    
+    background: rgba(28, 163, 153, .7);
+    opacity: 1;
 }
 
 .hovered__title {
@@ -596,11 +631,10 @@ button:focus {
     transform: rotate(45deg);
 }
 
-.works__key:hover  {
+.works__key:hover {
     background: #383838;
     color: #dbdbdb;
 }
-
 
 .icon_link_alt {
     font-size: 20px;
@@ -822,15 +856,84 @@ button:focus {
     width: 100%;
     height: 253px;
     background: #8a8a8a;
-    padding-top: 233px;
+    background: url(../img/shazmyn-ali-595978-unsplash.jpg) no-repeat center center;
+    /* padding-top: 233px; */
     margin-bottom: -20px;
 }
 
-.team__img:hover {
+.team__hovered {
+    padding-top: 110px;
+    font-size: 12px;
+    color: #e4e4e4;
+    height: 253px;
+    text-align: center;
+    /* background: #1ca399; */
+    opacity: 0;
+}
+
+/* .team__hovered:hover {
+   background: rgba(28, 163, 153, .7);
+   opacity: 1;
+   
+} */
+
+.team__card:hover .team__hovered {
+    background: rgba(28, 163, 153, .7);
+    opacity: 1;
+}
+
+.team__card:hover .team__btn {
+    background: #383838;
+}
+
+.team__items {
+    justify-content: center;
+    color: #1ca399;
+}
+
+.hovered__icon {
+    display: block;
+    background: #e4e4e4;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    -moz-transform: rotate(45deg);
+    /* Для Firefox */
+    -ms-transform: rotate(45deg);
+    /* Для IE */
+    -webkit-transform: rotate(45deg);
+    /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(45deg);
+    /* Для Opera */
+    transform: rotate(45deg);
+}
+
+.hovered__icon:hover {
+    background: #383838;
+    color: #dbdbdb;
+}
+
+.hovered__icon span {
+    font-size: 16px;
+    /* color: #1ca399; */
+    -moz-transform: rotate(-45deg);
+    /* Для Firefox */
+    -ms-transform: rotate(-45deg);
+    /* Для IE */
+    -webkit-transform: rotate(-45deg);
+    /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(-45deg);
+    /* Для Opera */
+    transform: rotate(-45deg);
+}
+
+/* .team__img:hover {
     background: #ee01da;
     opacity: .7;
     margin-bottom: -20px;
-}
+} */
 
 .team__btn {
     display: block;
@@ -852,9 +955,9 @@ button:focus {
     align-content: flex-end;
 }
 
-.team__btn:hover {
+/* .team__btn:hover {
     background: #383838;
-}
+} */
 
 .team__text {
     color: #606060;
@@ -997,7 +1100,7 @@ button:focus {
 }
 
 .clients__logo {
-    width: 270px;
+    width: 100%;
     height: 160px;
     background: #363636;
     justify-content: center;
@@ -1047,7 +1150,8 @@ button:focus {
 
 .clients-wrap {
     align-items: center;
-    /* width: calc(100vw - 405px); */
+    justify-content: space-around;
+    /* width: 1290px; */
     margin: 0 auto;
 }
 
@@ -1257,6 +1361,7 @@ button:focus {
 
 .container-fluid {
     padding: 0;
+    margin: 0;
 }
 
 .footer-title {
@@ -1369,4 +1474,132 @@ button:focus {
     font-weight: 800;
     color: #cccccc;
     padding-top: 30px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:1440px) {
+    .works {
+        background-size: cover;
+        height: 220px;
+        /* width: 170px; */
+    }
+    .works__hovered {
+        height: 220px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .works {
+        background-size: cover;
+        height: 190px;
+        /* width: 170px; */
+    }
+    .works__hovered {
+        height: 190px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .works {
+        background-size: cover;
+        height: 170px;
+        /* width: 170px; */
+    }
+    .works__hovered {
+        height: 170px;
+        padding-top: 20px;
+    }
+    .works__items {}
+    .hovered__title {
+        padding-top: 20px;
+        font-size: 13px;
+    /* }
+    .menu__item a {
+        padding: 15px;
+    } */
+}
+
+@media screen and (max-width:992px) {
+    .works {
+        background-size: cover;
+        height: 150px;
+        /* width: 170px; */
+    }
+    .works__hovered {
+        height: 150px;
+        padding-top: 20px;
+    }
+    .hovered__title {
+        padding-top: 20px;
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+    .works__hovered p {
+        padding-bottom: 2px;
+    }
+    .menu {
+        margin: 0 auto;
+    }
+    .title-purchase {
+        padding-bottom: 20px;
+    }
+    /* .logo {
+        display: block;
+        margin: 0 auto;
+        padding: 15px 0;
+    } */
+    /* .menu__item {
+        padding: 20px 0;
+        font-size: 18px;
+    }
+    .menu__item a {
+        padding: 10px;
+    } */
+    .flags {
+        /* width: 40%; */
+    }
+}
+
+@media screen and (max-width:768px) {
+    .works {
+        background-size: cover;
+        height: 130px;
+        /* width: 170px; */
+    }
+    .works__hovered {
+        height: 130px;
+        padding-top: 20px;
+    }
+    .works__items {}
+    .hovered__title {
+        padding-top: 20px;
+        padding-bottom: 5px;
+        font-size: 10px;
+    }
+    .works__hovered p {
+        padding-bottom: 2px;
+    }
+    .works__key {
+        width: 30px;
+        height: 30px;
+    }
+    .icon_link_alt {
+        font-size: 18px;
+    }
+    .icon_search {
+        font-size: 18px;
+    }
+    .skills__title {
+        padding-bottom: 30px;
+    }
+    .purchase {
+        text-align: ;
+    }
+    .title-purchase {
+        padding-bottom: 20px;
+    }
+    .buttons {
+        margin-left: auto;
+    }
 }

@@ -18,7 +18,7 @@
     <header class="header">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 d-flex">
+                <div class="col-lg-12 col-md-12 col-sm-12 d-flex">
                     <div class="title">
                         <p class="title__first">
                             what are you waiting for ?
@@ -40,7 +40,8 @@
                             <div class="line-left"></div>
                         </div>
                         <a href="#" class="icon">
-                            <i class="fas fa-chevron-circle-down d-flex"></i>
+                            <!-- <i class="fas fa-chevron-circle-down d-flex"></i> -->
+                            <span class="arrow_carrot-down_alt"></span>
                         </a>
                     </div>
                 </div>
@@ -49,41 +50,52 @@
     </header>
     <section class="nav-header">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-2">
+            <nav class="navbar navbar-expand-md navbar-dark bg-light">
+                <a class="navbar-brand" href="#">
                     <img src="img/logo2.png" alt="STARTUPRR" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <div class="toggler__border">
+                        <span class="icon_menu"></span>
+                    </div>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar1">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="menu__item">
+                            <a href="#">home </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">portfolio</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">blog</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">pages</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">features</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">menu</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">contact</a>
+                        </li>
+                        <li class="menu__item search">
+                            <form action="" class="search">
+                                <i class="fas fa-search"></i>
+                            </form>
+                        </li>
+                    </ul>
+                    <!-- <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+                    </form> -->
                 </div>
-                <div class="col-lg-8 ml-auto">
-                    <nav class="d-flex">
-                        <ul class="menu d-flex">
-                            <li class="menu__item">
-                                <a href="#">home </a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#">portfolio</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#">blog </a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#">pages</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#">features</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#">menu</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#">contact</a>
-                            </li>
-                        </ul>
-                        <a href="#">
-                            <i class="fas fa-search"></i>
-                        </a>
-                    </nav>
-                </div>
-            </div>
+            </nav>
         </div>
     </section>
     <section class="what-ofer">
@@ -140,10 +152,6 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="services">
-                        <!-- <span class="fa-stack fa-2x">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fas fa-flag fa-stack-1x fa-inverse"></i>
-                                      </span> -->
                         <div class="services__img3 d-flex">
                             <span class="icon_lifesaver"></span>
                         </div>
@@ -230,7 +238,7 @@
     <section class="more-features">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 wrap">
+                <div class="col-lg-4 col-md-6 col-sm-6 wrap">
                     <div class="flags d-flex">
                         <div class="flags__img1">
                             <span class="icon_desktop"></span>
@@ -248,7 +256,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="flags d-flex">
                         <div class="flags__img2">
                             <span class="icon_puzzle_alt"></span>
@@ -266,7 +274,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="flags d-flex">
                         <div class="flags__img1">
                             <span class="icon_star"></span>
@@ -284,7 +292,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="flags d-flex">
                         <div class="flags__img1">
                             <span class="icon_menu-square_alt"></span>
@@ -302,7 +310,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="flags d-flex">
                         <div class="flags__img1">
                             <span class="icon_cart"></span>
@@ -320,7 +328,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="flags d-flex">
                         <div class="flags__img1">
                             <span class="icon_lifesaver"></span>
@@ -366,7 +374,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
                     <div class="shapes circle75 d-flex">
                         <h2 class="progres">75
                             <span>%</span>
@@ -376,7 +384,7 @@
                         web design
                     </h3>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
                     <div class="shapes circle92 d-flex">
                         <h2 class="progres">92
                             <span>%</span>
@@ -386,7 +394,7 @@
                         web development
                     </h3>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
                     <div class="shapes circle68 d-flex">
                         <h2 class="progres">68
                             <span>%</span>
@@ -396,7 +404,7 @@
                         speed optimization
                     </h3>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
                     <div class="shapes circle100 d-flex">
                         <h2 class="progres">100
                             <span>%</span>
@@ -406,7 +414,7 @@
                         customer support
                     </h3>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
                     <div class="shapes circle83 d-flex">
                         <h2 class="progres">83
                             <span>%</span>
@@ -416,7 +424,7 @@
                         marketing
                     </h3>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
                     <div class="shapes circle50 d-flex">
                         <h2 class="progres">50
                             <span>%</span>
@@ -430,97 +438,307 @@
         </div>
     </section>
     <section class="sampleWorks">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="ofer-text d-flex">
-                        <div class="ofer__line-left"></div>
-                        <div class="ofer__img-left"></div>
-                        <h2 class="ofer__title">sample
-                            <span class="green">works</span>
-                        </h2>
-                        <div class="ofer__img-right"></div>
-                        <div class="ofer__line-left"></div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="ofer-text d-flex">
+                            <div class="ofer__line-left"></div>
+                            <div class="ofer__img-left"></div>
+                            <h2 class="ofer__title">sample
+                                <span class="green">works</span>
+                            </h2>
+                            <div class="ofer__img-right"></div>
+                            <div class="ofer__line-left"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <p class="works-text">Let’s take a look at some of the best of our works here, we love them and hope you too</p>
                     </div>
                 </div>
-                <div class="col-lg-12">
-                    <p class="ofer-text__2">Let’s take a look at some of the best of our works here, we love them and hope you too</p>
-                </div>
             </div>
-        </div>
-        <div class="works-foto">
-            <div class="allWorks d-flex">
-                <div class="works">
-
-                    <div class="works__hovered">
-                        <div class="works__items d-flex">
-                            <div class="works__key d-flex">
-                                <span class="icon_link_alt"></span>
+            <div class="container-fluid">
+                <div class="row no-gutters">
+                    <div class="col-lg-12">
+                        <div class="allWorks d-flex">
+                            <div class="works">
+                                <div class="works__hovered">
+                                    <div class="works__items d-flex">
+                                        <div class="works__key d-flex">
+                                            <span class="icon_link_alt"></span>
+                                        </div>
+                                        <div class="works__key d-flex">
+                                            <span class="icon_search"></span>
+                                        </div>
+                                    </div>
+                                    <h3 class="hovered__title">
+                                        Corporate Brochure
+                                    </h3>
+                                    <p>
+                                        Illustration / Print
+                                    </p>
+                                    <p>
+                                        <span class="icon_heart"></span> 138
+                                    </p>
+                                </div>
                             </div>
-                            <div class="works__key d-flex">
-                                <span class="icon_search"></span>
+                            <div class="works">
+                                <div class="works__hovered">
+                                    <div class="works__items d-flex">
+                                        <div class="works__key d-flex">
+                                            <span class="icon_link_alt"></span>
+                                        </div>
+                                        <div class="works__key d-flex">
+                                            <span class="icon_search"></span>
+                                        </div>
+                                    </div>
+                                    <h3 class="hovered__title">
+                                        Corporate Brochure
+                                    </h3>
+                                    <p>
+                                        Illustration / Print
+                                    </p>
+                                    <p>
+                                        <span class="icon_heart"></span> 138
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="works">
+                                <div class="works__hovered">
+                                    <div class="works__items d-flex">
+                                        <div class="works__key d-flex">
+                                            <span class="icon_link_alt"></span>
+                                        </div>
+                                        <div class="works__key d-flex">
+                                            <span class="icon_search"></span>
+                                        </div>
+                                    </div>
+                                    <h3 class="hovered__title">
+                                        Corporate Brochure
+                                    </h3>
+                                    <p>
+                                        Illustration / Print
+                                    </p>
+                                    <p>
+                                        <span class="icon_heart"></span> 138
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="works">
+                                <div class="works__hovered">
+                                    <div class="works__items d-flex">
+                                        <div class="works__key d-flex">
+                                            <span class="icon_link_alt"></span>
+                                        </div>
+                                        <div class="works__key d-flex">
+                                            <span class="icon_search"></span>
+                                        </div>
+                                    </div>
+                                    <h3 class="hovered__title">
+                                        Corporate Brochure
+                                    </h3>
+                                    <p>
+                                        Illustration / Print
+                                    </p>
+                                    <p>
+                                        <span class="icon_heart"></span> 138
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="works">
+                                <div class="works__hovered">
+                                    <div class="works__items d-flex">
+                                        <div class="works__key d-flex">
+                                            <span class="icon_link_alt"></span>
+                                        </div>
+                                        <div class="works__key d-flex">
+                                            <span class="icon_search"></span>
+                                        </div>
+                                    </div>
+                                    <h3 class="hovered__title">
+                                        Corporate Brochure
+                                    </h3>
+                                    <p>
+                                        Illustration / Print
+                                    </p>
+                                    <p>
+                                        <span class="icon_heart"></span> 138
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="works">
+                                <div class="works__hovered">
+                                    <div class="works__items d-flex">
+                                        <div class="works__key d-flex">
+                                            <span class="icon_link_alt"></span>
+                                        </div>
+                                        <div class="works__key d-flex">
+                                            <span class="icon_search"></span>
+                                        </div>
+                                    </div>
+                                    <h3 class="hovered__title">
+                                        Corporate Brochure
+                                    </h3>
+                                    <p>
+                                        Illustration / Print
+                                    </p>
+                                    <p>
+                                        <span class="icon_heart"></span> 138
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <h3 class="hovered__title">
-                                Corporate Brochure
-                        </h3>
-                        <p >
-                                Illustration / Print
-                        </p>
-                        <p>
-                            <span class="icon_heart"></span> 138
-                        </p>
                     </div>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-lg-12">
+                        <div class="allWorks no-gutters d-flex">
+                            <div class="works">
+                                <div class="works__hovered">
+                                    <div class="works__items d-flex">
+                                        <div class="works__key d-flex">
+                                            <span class="icon_link_alt"></span>
+                                        </div>
+                                        <div class="works__key d-flex">
+                                            <span class="icon_search"></span>
+                                        </div>
+                                    </div>
+                                    <h3 class="hovered__title">
+                                        Corporate Brochure
+                                    </h3>
+                                    <p>
+                                        Illustration / Print
+                                    </p>
+                                    <p>
+                                        <span class="icon_heart"></span> 138
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="works">
+                                <div class="works__hovered">
+                                    <div class="works__items d-flex">
+                                        <div class="works__key d-flex">
+                                            <span class="icon_link_alt"></span>
+                                        </div>
+                                        <div class="works__key d-flex">
+                                            <span class="icon_search"></span>
+                                        </div>
+                                    </div>
+                                    <h3 class="hovered__title">
+                                        Corporate Brochure
+                                    </h3>
+                                    <p>
+                                        Illustration / Print
+                                    </p>
+                                    <p>
+                                        <span class="icon_heart"></span> 138
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="works">
+                                <div class="works__hovered">
+                                    <div class="works__items d-flex">
+                                        <div class="works__key d-flex">
+                                            <span class="icon_link_alt"></span>
+                                        </div>
+                                        <div class="works__key d-flex">
+                                            <span class="icon_search"></span>
+                                        </div>
+                                    </div>
+                                    <h3 class="hovered__title">
+                                        Corporate Brochure
+                                    </h3>
+                                    <p>
+                                        Illustration / Print
+                                    </p>
+                                    <p>
+                                        <span class="icon_heart"></span> 138
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="works">
+                                <div class="works__hovered">
+                                    <div class="works__items d-flex">
+                                        <div class="works__key d-flex">
+                                            <span class="icon_link_alt"></span>
+                                        </div>
+                                        <div class="works__key d-flex">
+                                            <span class="icon_search"></span>
+                                        </div>
+                                    </div>
+                                    <h3 class="hovered__title">
+                                        Corporate Brochure
+                                    </h3>
+                                    <p>
+                                        Illustration / Print
+                                    </p>
+                                    <p>
+                                        <span class="icon_heart"></span> 138
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="works">
+                                <div class="works__hovered">
+                                    <div class="works__items d-flex">
+                                        <div class="works__key d-flex">
+                                            <span class="icon_link_alt"></span>
+                                        </div>
+                                        <div class="works__key d-flex">
+                                            <span class="icon_search"></span>
+                                        </div>
+                                    </div>
+                                    <h3 class="hovered__title">
+                                        Corporate Brochure
+                                    </h3>
+                                    <p>
+                                        Illustration / Print
+                                    </p>
+                                    <p>
+                                        <span class="icon_heart"></span> 138
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="works">
+                                <div class="works__hovered">
+                                    <div class="works__items d-flex">
+                                        <div class="works__key d-flex">
+                                            <span class="icon_link_alt"></span>
+                                        </div>
+                                        <div class="works__key d-flex">
+                                            <span class="icon_search"></span>
+                                        </div>
+                                    </div>
+                                    <h3 class="hovered__title">
+                                        Corporate Brochure
+                                    </h3>
+                                    <p>
+                                        Illustration / Print
+                                    </p>
+                                    <p>
+                                        <span class="icon_heart"></span> 138
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-
-                    <img src="img/shazmyn-ali-595978-unsplash.jpg" alt="">
-                </div>
-                <div class="works">
-                    <img src="img/shazmyn-ali-595978-unsplash.jpg" alt="">
-                </div>
-                <div class="works">
-                    <img src="img/shazmyn-ali-595978-unsplash.jpg" alt="">
-                </div>
-                <div class="works">
-                    <img src="img/shazmyn-ali-595978-unsplash.jpg" alt="">
-                </div>
-                <div class="works">
-                    <img src="img/shazmyn-ali-595978-unsplash.jpg" alt="">
-                </div>
-                <div class="works">
-                    <img src="img/shazmyn-ali-595978-unsplash.jpg" alt="">
-                </div>
             </div>
-            <div class="allWorks d-flex">
-                <div class="works">
-                    <img src="img/shazmyn-ali-595978-unsplash.jpg" alt="">
-                </div>
-                <div class="works">
-                    <img src="img/shazmyn-ali-595978-unsplash.jpg" alt="">
-                </div>
-                <div class="works">
-                    <img src="img/shazmyn-ali-595978-unsplash.jpg" alt="">
-                </div>
-                <div class="works">
-                    <img src="img/shazmyn-ali-595978-unsplash.jpg" alt="">
-                </div>
-                <div class="works">
-                    <img src="img/shazmyn-ali-595978-unsplash.jpg" alt="">
-                </div>
-                <div class="works">
-                    <img src="img/shazmyn-ali-595978-unsplash.jpg" alt="">
+
+
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <button class="btn_green2">
+                            read more
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <button class="btn_green2">
-                        read more
-                    </button>
-                </div>
-            </div>
-        </div>
+
     </section>
     <section class="facts">
         <div class="container">
@@ -546,7 +764,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                     <div class="facts__shapes d-flex">
                         <div class="facts__img-left"></div>
                         <h2 class="facts__progres">218</h2>
@@ -561,7 +779,7 @@
                         completed projects
                     </h3>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                     <div class="facts__shapes d-flex">
                         <div class="facts__img-green"></div>
                         <h2 class="facts__progres">360</h2>
@@ -576,7 +794,7 @@
                         hours of work / month
                     </h3>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                     <div class="facts__shapes d-flex">
                         <div class="facts__img-left"></div>
                         <h2 class="facts__progres">135</h2>
@@ -591,7 +809,7 @@
                         solved tickets
                     </h3>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
                     <div class="facts__shapes d-flex">
                         <div class="facts__img-left"></div>
                         <h2 class="facts__progres">174</h2>
@@ -612,13 +830,15 @@
     <section class="purchase">
         <div class="container">
             <div class="row">
-                <div class="title-purchase d-flex">
-                    <h3 class="purchase__title">
-                        are you satisfied with unlimited features that we offer?
-                    </h3>
+                <div class="col-lg-8 col-md-12 col-sm-12 col-12 d-flex align-self-center">
+                    <div class="title-purchase">
+                        <h3 class="purchase__title">
+                            are you satisfied with unlimited features that we offer?
+                        </h3>
+                    </div>
                 </div>
 
-                <div class="col-lg-4 ml-auto">
+                <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="buttons d-flex">
                         <button class="purchase__btn">
                             purchase it now
@@ -663,6 +883,25 @@
                     <div class="team-cards">
                         <div class="team__card">
                             <div class="team__img">
+                                <div class="team__hovered">
+                                    <div class="team__items d-flex">
+                                        <div class="hovered__icon d-flex">
+                                            <span class="social_facebook"></span>
+                                        </div>
+                                        <div class="hovered__icon d-flex">
+                                            <span class="social_twitter"></span>
+                                        </div>
+                                        <div class="hovered__icon d-flex">
+                                            <span class="social_googleplus"></span>
+                                        </div>
+                                        <div class="hovered__icon d-flex">
+                                            <span class="social_vimeo"></span>
+                                        </div>
+                                        <div class="hovered__icon d-flex">
+                                            <span class="social_dribbble"></span>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- <img src="img/square_unsplash.jpg" alt="photo" class="team__img"> -->
                             </div>
                             <div class="card__body">
@@ -690,6 +929,25 @@
                     <div class="team-cards">
                         <div class="team__card">
                             <div class="team__img">
+                                <div class="team__hovered">
+                                    <div class="team__items d-flex">
+                                        <div class="hovered__icon d-flex">
+                                            <span class="social_facebook"></span>
+                                        </div>
+                                        <div class="hovered__icon d-flex">
+                                            <span class="social_twitter"></span>
+                                        </div>
+                                        <div class="hovered__icon d-flex">
+                                            <span class="social_googleplus"></span>
+                                        </div>
+                                        <div class="hovered__icon d-flex">
+                                            <span class="social_vimeo"></span>
+                                        </div>
+                                        <div class="hovered__icon d-flex">
+                                            <span class="social_dribbble"></span>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- <img src="img/square_unsplash.jpg" alt="photo" class="team__img"> -->
                             </div>
                             <div class="card__body">
@@ -717,6 +975,25 @@
                     <div class="team-cards">
                         <div class="team__card">
                             <div class="team__img">
+                                <div class="team__hovered">
+                                    <div class="team__items d-flex">
+                                        <div class="hovered__icon d-flex">
+                                            <span class="social_facebook"></span>
+                                        </div>
+                                        <div class="hovered__icon d-flex">
+                                            <span class="social_twitter"></span>
+                                        </div>
+                                        <div class="hovered__icon d-flex">
+                                            <span class="social_googleplus"></span>
+                                        </div>
+                                        <div class="hovered__icon d-flex">
+                                            <span class="social_vimeo"></span>
+                                        </div>
+                                        <div class="hovered__icon d-flex">
+                                            <span class="social_dribbble"></span>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- <img src="img/square_unsplash.jpg" alt="photo" class="team__img"> -->
                             </div>
                             <div class="card__body">
@@ -744,6 +1021,25 @@
                     <div class="team-cards">
                         <div class="team__card">
                             <div class="team__img">
+                                <div class="team__hovered">
+                                    <div class="team__items d-flex">
+                                        <div class="hovered__icon d-flex">
+                                            <span class="social_facebook"></span>
+                                        </div>
+                                        <div class="hovered__icon d-flex">
+                                            <span class="social_twitter"></span>
+                                        </div>
+                                        <div class="hovered__icon d-flex">
+                                            <span class="social_googleplus"></span>
+                                        </div>
+                                        <div class="hovered__icon d-flex">
+                                            <span class="social_vimeo"></span>
+                                        </div>
+                                        <div class="hovered__icon d-flex">
+                                            <span class="social_dribbble"></span>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- <img src="img/square_unsplash.jpg" alt="photo" class="team__img"> -->
                             </div>
                             <div class="card__body">
@@ -803,40 +1099,41 @@
         </div>
     </section>
     <section class="clients">
-        <div class="clients-wrap d-flex">
-            <div class="clients__key_down d-flex">
-                <span class="arrow_triangle-left"></span>
-            </div>
-            <div class="container d-flex">
-
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="clients__logo d-flex">
-                            <img src="img/first.png" alt="" class="logo__img">
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="clients__logo d-flex">
-                            <img src="img/second.png" alt="" class="logo__img">
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="clients__logo d-flex">
-                            <img src="img/third.png" alt="" class="logo__img">
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="clients__logo d-flex">
-                            <img src="img/fourth.png" alt="" class="logo__img">
-                        </div>
-                    </div>
+        <div class="container-fluid">
+            <div class="clients-wrap d-flex">
+                <div class="clients__key_down d-flex">
+                    <span class="arrow_triangle-left"></span>
                 </div>
+                <div class="container no-gutters">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="clients__logo d-flex">
+                                <img src="img/first.png" alt="" class="logo__img">
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="clients__logo d-flex">
+                                <img src="img/second.png" alt="" class="logo__img">
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="clients__logo d-flex">
+                                <img src="img/third.png" alt="" class="logo__img">
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="clients__logo d-flex">
+                                <img src="img/fourth.png" alt="" class="logo__img">
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
+                <div class="clients__key_down d-flex">
+                    <span class="arrow_triangle-right"></span>
+                </div>
             </div>
-            <div class="clients__key_down d-flex">
-                <span class="arrow_triangle-right"></span>
-            </div>
-            </di>
+        </div>
     </section>
     <section class="price-tables">
         <div class="container">
@@ -1044,62 +1341,7 @@
             </div>
         </div>
     </section>
-    <!-- <section class="footer-title">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 d-flex">
-                    <img src="img/logo2.png" alt="STARTUPRR" class="logo_2">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="icons d-flex">
-                        <div class="icons__social d-flex">
-                            <span class="social_facebook"></span>
-                        </div>
-                        <div class="icons__social d-flex">
-                            <span class=" social_twitter"></span>
-                        </div>
-                        <div class="icons__social d-flex">
-                            <span class="social_pinterest"></span>
-                        </div>
-                        <div class="icons__social d-flex">
-                            <span class="social_rss"></span>
-                        </div>
-                        <div class="icons__social d-flex">
-                            <span class="social_vimeo"></span>
-                        </div>
-                        <div class="icons__social d-flex">
-                            <span class="social_youtube"></span>
-                        </div>
-                        <div class="icons__social d-flex">
-                            <span class="social_linkedin"></span>
-                        </div>
-                        <div class="icons__social d-flex">
-                            <span class="social_dribbble"></span>
-                        </div>
-                        <div class="icons__social d-flex">
-                            <span class="social_deviantart"></span>
-                        </div>
-                        <div class="icons__social d-flex">
-                            <span class="social_picassa"></span>
-                        </div>
-                        <div class="icons__social d-flex">
-                            <span class="social_tumbleupon"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="cntainer-fluid">
-                <div class="row">
-                    <div class="map d-flex">
-                        <span class="icon_pin"></span>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17108.112219715113!2d-74.01758759738689!3d40.71106971026991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a18be3bd30b%3A0xd62585dfd4f3489e!2s250+Broadway%2C+New+York%2C+NY+10007!5e0!3m2!1sru!2s!4v1538251571684" width="100%" height="500" frameborder="25" style="border:0" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
+
 
     <footer class="footer">
         <div class="container-fluid">
@@ -1169,17 +1411,19 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="key d-flex">
-                        <span class="arrow_triangle-up"></span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="key d-flex">
+                            <span class="arrow_triangle-up"></span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="credits">
-                        Copyright © 2014 Startuprr, All Rights Reserved.
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="credits">
+                            Copyright © 2014 Startuprr, All Rights Reserved.
+                        </div>
                     </div>
                 </div>
             </div>
